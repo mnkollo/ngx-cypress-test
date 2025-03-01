@@ -35,3 +35,7 @@
 //     }
 //   }
 // }
+
+Cypress.Commands.add('openLocalHost',() => {
+    cy.visit('/')
+});
